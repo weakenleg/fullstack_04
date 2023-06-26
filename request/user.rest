@@ -1,0 +1,10 @@
+POST /api/users HTTP/1.1
+Host: localhost:3003
+Content-Type: application/json
+
+{
+"username": "john_doe",
+"name": "John hjjkhe",
+"password": "546123",
+"blogId": "649892066f086e04ec81615e"
+}
