@@ -77,7 +77,7 @@ test('deletes a single blog post', async () => {
 
   expect(deletedBlog).toBeUndefined();
 });
-// In blog_api.test.js
+
 
 test('updates a single blog post', async () => {
   const blogsBeforeUpdate = await api.get('/api/blogs');
